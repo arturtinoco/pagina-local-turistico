@@ -165,6 +165,10 @@ li.recomendation {
     margin-left: 1rem;
 }
 
+section.description#bottom {
+    text-align: center;
+}
+
 footer {
     display: flex;
     justify-content: center;
