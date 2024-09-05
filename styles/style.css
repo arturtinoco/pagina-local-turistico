@@ -17,3 +17,53 @@
     padding: 0;
     margin: 0;
 }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 80rem;
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+#title-page {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+}
+
+span {
+    color: var(--text-headline);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+footer img {
+    width: 1rem;
+}
+
+footer a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--text-primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
