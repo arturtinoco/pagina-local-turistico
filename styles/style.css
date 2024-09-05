@@ -47,27 +47,6 @@ h1 {
     font-weight: bold;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
-}
-
-footer img {
-    width: 1rem;
-}
-
-footer a {
-    color: var(--text-secondary);
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: var(--text-primary);
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 section.description#top img {
     width: 100%;
     height: 41.25rem;
@@ -115,4 +94,94 @@ section#title-list {
     color: var(--text-primary);
     font-size: 2rem;
     font-weight: bold;
+}
+
+section#card-list ol {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.img {
+    width: 100%;
+    height: 22rem;
+    border-radius: 1.75rem;
+}
+
+#img2 {
+    background: transparent url(../assets/images/Image_02.jpg) no-repeat center center/cover;
+}
+
+#img3 {
+    background: transparent url(../assets/images/Image_03.jpg) no-repeat center center/cover;
+}
+
+#img4 {
+    background: transparent url(../assets/images/Image_04.jpg) no-repeat center bottom/cover;
+}
+
+li.card {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-left: 2.5rem;
+}
+
+.content h3 {
+    color: var(--text-primary);
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.content > p {
+    font-weight: normal;
+}
+ul li.blue {
+    color: var(--accent-blue);
+}
+
+ul li.purple {
+    color: var(--accent-purple);
+}
+
+ul li.pink {
+    color: var(--accent-pink);
+}
+
+ul li.orange {
+    color: var(--accent-orange);
+}
+
+li.recomendation {
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: disc;
+    margin-left: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+footer img {
+    width: 1rem;
+}
+
+footer a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--text-primary);
+    font-weight: bold;
+    text-decoration: underline;
 }
