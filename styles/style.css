@@ -1,4 +1,16 @@
+:root {
+    --text-primary: #1B1B1B;
+    --text-secondary : #333333;
+    --text-tertiary : #696969;
+    --text-headline: #E1624F;
 
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+
+    font-family: "Open Sans", sans-serif;
+}
 
 * {
     box-sizing: border-box;
